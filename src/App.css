@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 14vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  padding-left: 5vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-bottom: 5px solid #DF6226;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.info {
+  color: black;
+  background-color: #DDDDDD;
+  list-style-type:none
+}
+
+.chart_container {
+  margin-left: 18vw;
+  width: 60vw;
+}
+
+.chart_container1 {
+  margin-left: 18vw;
+  width: 60vw;
+}
+
+.chart_title {
+  color: #282c34;
+  background-color: white;
+  padding-left: 3vh;
+  font-size: calc(10px + 2vmin);
+  margin: 2vh;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.mr-auto {
+  margin-right: 0;
+}
+
+.nav_container {
+  border-bottom: 8px solid #DF6226;
+}
+
+.navbar {
+		display: grid;
+		grid-template-columns: repeat(2 , 1fr);
+		grid-template-rows: 1fr;
+
+		height: 10vh;
+		max-height: 80px;
+    width: 100%;
+
+		background-color: #333;
+	}
+
+.brand {
+  padding-left: 0px;
+  color: red;
+}
+
+.loading_box {
+  background-color: #DDDDDD;
+  width: 50vw;
+  height: 40vh;
+  text-align: center;
+  margin: auto;
+  margin-top: 20vh;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  align-items: center;
+  color: #333;
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+  border-bottom: 8px solid #DF6226;
+  border-right: 8px solid #DF6226;
+}
+
+.navbar_new {
+	display: grid;
+	grid-template-columns: repeat(12 , 1fr);
+	grid-template-rows: 1fr;
+	align-items: center;
+
+	height: 10vw;
+	max-height: 80px;
+
+	background-color: #343a40;
+  border-bottom: 8px solid #DF6226;
+  color: white;
+}
+
+.navbar_new div:nth-child(1) {
+	grid-area: 1 / 1 / 2 / 4;
+  font-size: 1.5em;
+}
+.navbar_new div:nth-child(2) {
+	grid-area: 1 / 9 / 2 / 10;
+  color: white;
+}
+.navbar_new div:nth-child(3) {
+	grid-area: 1 / 10 / 2 / 11;
+}
+.navbar_new div:nth-child(4) {
+	grid-area: 1 / 11 / 2 / 12;
+}
+
+a:link {
+  color: #DDDDDD;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+a:visited {
+  color: #DDDDDD;
+}
+
+.navbar_new a:hover {
+  transform: scale(1.2);
+	transition: ease 0.3s;
+}
